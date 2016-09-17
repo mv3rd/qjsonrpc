@@ -1,0 +1,121 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="source">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="include">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="resource">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="$(SrcDir)qjsonrpc_moc.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SrcDir)qjsonrpcmessage.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SrcDir)qjsonrpcservice.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SrcDir)qjsonrpcsocket.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SrcDir)qjsonrpcserviceprovider.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SrcDir)qjsonrpcabstractserver.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SrcDir)qjsonrpclocalserver.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SrcDir)qjsonrpctcpserver.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SrcDir)qjsonrpcservicereply.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SrcDir)qjsonrpchttpserver.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SrcDir)http-parser\http_parser.c">
+      <Filter>source</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="$(SrcDir)qjsonrpc_version.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SrcDir)qjsonrpcmessage.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SrcDir)qjsonrpcserviceprovider.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SrcDir)qjsonrpcabstractserver.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SrcDir)qjsonrpcglobal.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SrcDir)qjsonrpcmetatype.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SrcDir)qjsonrpcservice_p.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SrcDir)qjsonrpcsocket_p.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SrcDir)qjsonrpcabstractserver_p.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SrcDir)qjsonrpcservicereply_p.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SrcDir)http-parser\http_parser.h">
+      <Filter>include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="$(SrcDir)qjsonrpc.rc">
+      <Filter>resource</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="$(SrcDir)qjsonrpcsocket.h">
+      <Filter>include</Filter>
+    </CustomBuild>
+    <CustomBuild Include="$(SrcDir)qjsonrpclocalserver.h">
+      <Filter>include</Filter>
+    </CustomBuild>
+    <CustomBuild Include="$(SrcDir)qjsonrpctcpserver.h">
+      <Filter>include</Filter>
+    </CustomBuild>
+    <CustomBuild Include="$(SrcDir)qjsonrpchttpclient.h">
+      <Filter>include</Filter>
+    </CustomBuild>
+    <CustomBuild Include="$(SrcDir)qjsonrpchttpserver.h">
+      <Filter>include</Filter>
+    </CustomBuild>
+    <CustomBuild Include="$(SrcDir)qjsonrpchttpserver_p.h">
+      <Filter>include</Filter>
+    </CustomBuild>
+    <CustomBuild Include="$(SrcDir)qjsonrpchttpclient.cpp">
+      <Filter>source</Filter>
+    </CustomBuild>
+    <CustomBuild Include="$(SrcDir)qjsonrpcservice.h">
+      <Filter>include</Filter>
+    </CustomBuild>
+    <CustomBuild Include="$(SrcDir)qjsonrpcservicereply.h">
+      <Filter>include</Filter>
+    </CustomBuild>
+  </ItemGroup>
+</Project>

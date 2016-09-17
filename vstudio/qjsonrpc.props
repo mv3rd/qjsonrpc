@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Label="Globals">
+    <WorkDir>$(SolutionDir)/</WorkDir>
+    <SrcDir>$(WorkDir)qjsonrpc\src/</SrcDir>
+    <UseQT>true</UseQT>
+    <UseQtNetwork>true</UseQtNetwork>
+    <GlobalIncPath_x86>$(SrcDir)http-parser</GlobalIncPath_x86>
+    <GlobalIncPath_x64>$(SrcDir)http-parser</GlobalIncPath_x64>
+  </PropertyGroup>
+</Project>

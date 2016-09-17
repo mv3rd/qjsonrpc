@@ -1,3 +1,5 @@
 build
 Makefile
 qjsonrpc.pro.user
+*.moc
+moc_*.cpp
