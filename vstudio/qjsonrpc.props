@@ -7,5 +7,6 @@
     <UseQtNetwork>true</UseQtNetwork>
     <GlobalIncPath_x86>$(SrcDir)http-parser</GlobalIncPath_x86>
     <GlobalIncPath_x64>$(SrcDir)http-parser</GlobalIncPath_x64>
+    <GlobalPreprocessorDefinitions>QJSONRPC_SHARED;QJSONRPC_BUILD</GlobalPreprocessorDefinitions>
   </PropertyGroup>
 </Project>

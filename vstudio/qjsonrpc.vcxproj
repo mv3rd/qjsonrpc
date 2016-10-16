@@ -154,6 +154,7 @@
       <SDLCheck>true</SDLCheck>
       <MultiProcessorCompilation>$(UseMultiProcessorCompilation)</MultiProcessorCompilation>
       <ProgramDataBaseFileName>$(OutputDir)pdb\$(Configuration)_$(Platform)\$(TargetName).vc$(PlatformToolsetVersion).pdb</ProgramDataBaseFileName>
+      <DisableSpecificWarnings>4244;4267;%(DisableSpecificWarnings)</DisableSpecificWarnings>
       <AdditionalOptions>/bigobj %(AdditionalOptions)</AdditionalOptions>
     </ClCompile>
     <Link>
