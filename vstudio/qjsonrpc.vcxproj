@@ -18,7 +18,7 @@
     <ClCompile Include="$(SrcDir)qjsonrpctcpserver.cpp" />
     <ClCompile Include="$(SrcDir)qjsonrpcservicereply.cpp" />
     <CustomBuild Include="$(SrcDir)qjsonrpchttpclient.cpp">
-      <AdditionalInputs>$(QTDIR)bin\moc.exe;%(FullPath)</AdditionalInputs>
+      <AdditionalInputs>$(QTDIR)bin\moc.exe;%(AdditionalInputs)</AdditionalInputs>
       <Message>Moc%27ing %(Filename).h...</Message>
       <Outputs>$(QtOutputDir)$(Configuration)_$(Platform)\moc_%(Filename).cpp</Outputs>
       <Command>"$(QTDIR)bin\moc.exe" "%(FullPath)" -o "$(QtOutputDir)$(Configuration)_$(Platform)\moc_%(Filename).cpp" $(QT_MOC_ARG)</Command>
@@ -28,13 +28,13 @@
     <ClInclude Include="$(SrcDir)qjsonrpc_version.h" />
     <ClInclude Include="$(SrcDir)qjsonrpcmessage.h" />
     <CustomBuild Include="$(SrcDir)qjsonrpcservice.h">
-      <AdditionalInputs>$(QTDIR)bin\moc.exe;%(FullPath)</AdditionalInputs>
+      <AdditionalInputs>$(QTDIR)bin\moc.exe;%(AdditionalInputs)</AdditionalInputs>
       <Message>Moc%27ing %(Filename).h...</Message>
       <Outputs>$(QtOutputDir)$(Configuration)_$(Platform)\moc_%(Filename).cpp</Outputs>
       <Command>"$(QTDIR)bin\moc.exe" "%(FullPath)" -o "$(QtOutputDir)$(Configuration)_$(Platform)\moc_%(Filename).cpp" $(QT_MOC_ARG)</Command>
     </CustomBuild>
     <CustomBuild Include="$(SrcDir)qjsonrpcsocket.h">
-      <AdditionalInputs>$(QTDIR)bin\moc.exe;%(FullPath)</AdditionalInputs>
+      <AdditionalInputs>$(QTDIR)bin\moc.exe;%(AdditionalInputs)</AdditionalInputs>
       <Message>Moc%27ing %(Filename).h...</Message>
       <Outputs>$(QtOutputDir)$(Configuration)_$(Platform)\moc_%(Filename).cpp</Outputs>
       <Command>"$(QTDIR)bin\moc.exe" "%(FullPath)" -o "$(QtOutputDir)$(Configuration)_$(Platform)\moc_%(Filename).cpp" $(QT_MOC_ARG)</Command>
@@ -42,32 +42,32 @@
     <ClInclude Include="$(SrcDir)qjsonrpcserviceprovider.h" />
     <ClInclude Include="$(SrcDir)qjsonrpcabstractserver.h" />
     <CustomBuild Include="$(SrcDir)qjsonrpclocalserver.h">
-      <AdditionalInputs>$(QTDIR)bin\moc.exe;%(FullPath)</AdditionalInputs>
+      <AdditionalInputs>$(QTDIR)bin\moc.exe;%(AdditionalInputs)</AdditionalInputs>
       <Message>Moc%27ing %(Filename).h...</Message>
       <Outputs>$(QtOutputDir)$(Configuration)_$(Platform)\moc_%(Filename).cpp</Outputs>
       <Command>"$(QTDIR)bin\moc.exe" "%(FullPath)" -o "$(QtOutputDir)$(Configuration)_$(Platform)\moc_%(Filename).cpp" $(QT_MOC_ARG)</Command>
     </CustomBuild>
     <CustomBuild Include="$(SrcDir)qjsonrpctcpserver.h">
-      <AdditionalInputs>$(QTDIR)bin\moc.exe;%(FullPath)</AdditionalInputs>
+      <AdditionalInputs>$(QTDIR)bin\moc.exe;%(AdditionalInputs)</AdditionalInputs>
       <Message>Moc%27ing %(Filename).h...</Message>
       <Outputs>$(QtOutputDir)$(Configuration)_$(Platform)\moc_%(Filename).cpp</Outputs>
       <Command>"$(QTDIR)bin\moc.exe" "%(FullPath)" -o "$(QtOutputDir)$(Configuration)_$(Platform)\moc_%(Filename).cpp" $(QT_MOC_ARG)</Command>
     </CustomBuild>
     <ClInclude Include="$(SrcDir)qjsonrpcglobal.h" />
     <CustomBuild Include="$(SrcDir)qjsonrpcservicereply.h">
-      <AdditionalInputs>$(QTDIR)bin\moc.exe;%(FullPath)</AdditionalInputs>
+      <AdditionalInputs>$(QTDIR)bin\moc.exe;%(AdditionalInputs)</AdditionalInputs>
       <Message>Moc%27ing %(Filename).h...</Message>
       <Outputs>$(QtOutputDir)$(Configuration)_$(Platform)\moc_%(Filename).cpp</Outputs>
       <Command>"$(QTDIR)bin\moc.exe" "%(FullPath)" -o "$(QtOutputDir)$(Configuration)_$(Platform)\moc_%(Filename).cpp" $(QT_MOC_ARG)</Command>
     </CustomBuild>
     <CustomBuild Include="$(SrcDir)qjsonrpchttpclient.h">
-      <AdditionalInputs>$(QTDIR)bin\moc.exe;%(FullPath)</AdditionalInputs>
+      <AdditionalInputs>$(QTDIR)bin\moc.exe;%(AdditionalInputs)</AdditionalInputs>
       <Message>Moc%27ing %(Filename).h...</Message>
       <Outputs>$(QtOutputDir)$(Configuration)_$(Platform)\%(Filename).moc</Outputs>
       <Command>"$(QTDIR)bin\moc.exe" "%(FullPath)" -o "$(QtOutputDir)$(Configuration)_$(Platform)\%(Filename).moc" $(QT_MOC_ARG)</Command>
     </CustomBuild>
     <CustomBuild Include="$(SrcDir)qjsonrpchttpserver.h">
-      <AdditionalInputs>$(QTDIR)bin\moc.exe;%(FullPath)</AdditionalInputs>
+      <AdditionalInputs>$(QTDIR)bin\moc.exe;%(AdditionalInputs)</AdditionalInputs>
       <Message>Moc%27ing %(Filename).h...</Message>
       <Outputs>$(QtOutputDir)$(Configuration)_$(Platform)\moc_%(Filename).cpp</Outputs>
       <Command>"$(QTDIR)bin\moc.exe" "%(FullPath)" -o "$(QtOutputDir)$(Configuration)_$(Platform)\moc_%(Filename).cpp" $(QT_MOC_ARG)</Command>
@@ -78,7 +78,7 @@
     <ClInclude Include="$(SrcDir)qjsonrpcabstractserver_p.h" />
     <ClInclude Include="$(SrcDir)qjsonrpcservicereply_p.h" />
     <CustomBuild Include="$(SrcDir)qjsonrpchttpserver_p.h">
-      <AdditionalInputs>$(QTDIR)bin\moc.exe;%(FullPath)</AdditionalInputs>
+      <AdditionalInputs>$(QTDIR)bin\moc.exe;%(AdditionalInputs)</AdditionalInputs>
       <Message>Moc%27ing %(Filename).h...</Message>
       <Outputs>$(QtOutputDir)$(Configuration)_$(Platform)\moc_%(Filename).cpp</Outputs>
       <Command>"$(QTDIR)bin\moc.exe" "%(FullPath)" -o "$(QtOutputDir)$(Configuration)_$(Platform)\moc_%(Filename).cpp" $(QT_MOC_ARG)</Command>
