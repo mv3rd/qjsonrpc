@@ -2,7 +2,7 @@
 <Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup Label="Globals">
     <WorkDir>$(SolutionDir)/</WorkDir>
-    <SrcDir>$(WorkDir)qjsonrpc\src/</SrcDir>
+    <SrcDir>$(WorkDir)lib\qjsonrpc\src/</SrcDir>
     <UseQT>true</UseQT>
     <UseQtNetwork>true</UseQtNetwork>
     <GlobalIncPath_x86>$(SrcDir)http-parser</GlobalIncPath_x86>
