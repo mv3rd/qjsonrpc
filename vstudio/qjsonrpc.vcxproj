@@ -149,7 +149,7 @@
       <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>PROJECT_NAME=$(TargetName);$(TargetName)_EXPORT;_WINDOWS;WIN32;_USRDLL;$(GlobalPreprocessorDefinitions);%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <WarningLevel>Level3</WarningLevel>
-      <BrowseInformation>false</BrowseInformation>
+      <BrowseInformation>$(GenPreserveSbr)</BrowseInformation>
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <SDLCheck>true</SDLCheck>
       <MultiProcessorCompilation>$(UseMultiProcessorCompilation)</MultiProcessorCompilation>
